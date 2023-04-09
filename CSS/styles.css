@@ -1,0 +1,217 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+h1 {
+    padding: 2%;
+    width: 250px;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 70px;
+    color: #66BFBF;
+
+}
+
+h2 {
+    color: #66BFBF;
+    font-weight: normal;
+    line-height: 2;
+
+}
+
+h3 {
+    color: #11999E;
+}
+
+p {
+    padding: 2%;
+    color: #40514E;
+
+}
+
+a {
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #EAF6F6;
+    width: 100%;
+    padding-top: 100px;
+    margin-bottom: 20px;
+
+}
+
+.profile-picture {
+    width: 15%;
+
+}
+
+.skills {
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.skill {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row {
+    margin: auto;
+    /* display: inline-block; */
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: left;
+    line-height: 2;
+}
+
+.education {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+
+img {
+    display: inline-block;
+
+}
+
+.middle-container {}
+
+.bottom-container {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #66BFBF;
+
+}
+
+
+
+span {
+    background-color: rgb(255, 234, 0);
+}
+
+.cloud_01 {
+    position: relative;
+    left: 250px;
+
+}
+
+.cloud_02 {
+    position: absolute;
+
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    /* display: inline-block; */
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* display: inline-block; */
+    position: absolute;
+    left: 100px;
+    top: 100px;
+
+}
+
+.yellow {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    /* display: inline-block; */
+    position: absolute;
+
+
+
+}
+
+.container {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+/* }
+#chilli-disc{
+    clear: right;
+} */
+
+hr {
+    width: 65px;
+    border-style: dotted none none;
+    border-width: 7px;
+    border-color: #8c8b8b;
+}
+
+.horizontal-line-top {
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.horizontal-line-bottom {
+    align-items: center;
+    padding: 10px;
+
+    margin-bottom: 100px;
+
+}
+
+.btn {
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    text-shadow: 0px 0px 0px #11999E;
+    font-family: Courier New;
+    color: #ffffff;
+    font-size: 19px;
+    background: #11999E;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+
+}
+
+.btn:hover {
+    background: #11999E;
+    background-image: linear-gradient(to bottom, #30aeb7, #11999E);
+    text-decoration: none;
+}
+
+.contact-me {
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+#copy-right {
+    color: #EAF6F6;
+}
+
+#final-disc {
+    margin-bottom: 40px;
+}
+
+#skill-detail {
+    display: none;
+}
+
+#prog-lang {
+    display: none;
+}
